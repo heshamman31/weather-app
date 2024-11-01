@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+import Container from '@mui/material/Container';
 import './App.css';
-
+import WeatherApp from './combonents/WeatherBox';
 function App() {
+  // api key 2b8b8d74ab249ce45658c3305aa4c380
+  // https://api.openweathermap.org/data/2.5/weather?lat=30.033333&lon=31.700001&appid=2b8b8d74ab249ce45658c3305aa4c380
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container sx={{height:'100vh',display: 'flex', justifyContent: 'center' , alignItems: 'center'}}  maxWidth="sm">
+        <WeatherApp/>
+      </Container>
     </div>
   );
 }
-
+// npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 export default App;
