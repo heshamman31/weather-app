@@ -24,7 +24,7 @@ export default function WeatherApp() {
     useEffect(() => {
         moment.locale('ar');
         i18n.changeLanguage('ar');
-    }, [])
+    }, [i18n])
     useEffect(() => {
         const updateTime = setInterval(() => {
             setTime(moment().format('MMMM Do YYYY, h:mm:ss a'));
