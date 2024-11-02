@@ -1,2 +1,2 @@
 a weather application using React that provides users with current weather conditions for their city, integrating the OpenWeatherMap API for real-time data. The project emphasizes localization, allowing users to switch between English and Arabic with layout adjustments from LTR to RTL for Arabic support. Utilized i18next for translations, Moment for time formatting, and applied React hooks, such as useEffect, to manage API calls and state updates efficiently.
-Technologies : React , Material ui, i18n Library, moment Library, REST API , Axios Library , npm Postman
+Technologies : React , Material ui, i18n Library, moment Library, REST API , Axios Library , npm Postman .
